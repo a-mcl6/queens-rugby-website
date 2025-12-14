@@ -1,0 +1,111 @@
+:root{
+  /* base */
+  --font-base-size: 16px;
+
+  /* colour overlay variables */
+    --black-hsl: 216.86, 94.59%, 14.51%;
+    --backgroundOverlayColor: hsla(var(--black-hsl), 0.59);
+
+  /* fonts (clean names) */
+  --font-heading-family: "brandon-grotesque";
+  --font-heading-style: normal;
+  --font-heading-weight: 700;
+  --font-heading-transform: none;
+  --font-heading-letter-spacing: -0.02em;
+  --font-heading-line-height: 1.2;
+
+  --font-body-family: "brandon-grotesque";
+  --font-body-style: normal;
+  --font-body-weight: 400;
+  --font-body-transform: uppercase;
+  --font-body-letter-spacing: 0em;
+  --font-body-line-height: 1.5;
+
+  --font-meta-family: "Arimo";
+  --font-meta-style: normal;
+  --font-meta-weight: 400;
+  --font-meta-transform: none;
+  --font-meta-letter-spacing: 0em;
+  --font-meta-line-height: 1.5;
+
+  /* sizes */
+  --size-h1: 4rem;
+  --size-h1-value: 4;
+  --size-h2: 2.8rem;
+  --size-h2-value: 2.8;
+  --size-h3: 2.2rem;
+  --size-h3-value: 2.2;
+  --size-h4: 1.6rem;
+  --size-h4-value: 1.6;
+
+  --size-large: 1.4rem;
+  --size-large-value: 1.4;
+  --size-base: 1rem;
+  --size-base-value: 1;
+  --size-small: .9rem;
+  --size-small-value: .9;
+  --size-meta: 1rem;
+  --size-meta-value: 1;
+
+  /* site navigation token */
+  --site-navigation-font-family: var(--font-body-family);
+  --site-navigation-font-style: var(--font-body-style);
+  --site-navigation-font-weight: var(--font-body-weight);
+  --site-navigation-font-transform: var(--font-body-transform);
+  --site-navigation-font-letter-spacing: var(--font-body-letter-spacing);
+  --site-navigation-font-line-height: var(--font-body-line-height);
+  --site-navigation-font-size: var(--size-base);
+  --site-navigation-font-size-value: var(--size-base-value);
+
+  /* Backwards-compatible aliases (keep existing names working) */
+  --base-font-size: var(--font-base-size);
+
+  --heading-font-font-family: var(--font-heading-family);
+  --heading-font-font-style: var(--font-heading-style);
+  --heading-font-font-weight: var(--font-heading-weight);
+  --heading-font-text-transform: var(--font-heading-transform);
+  --heading-font-letter-spacing: var(--font-heading-letter-spacing);
+  --heading-font-line-height: var(--font-heading-line-height);
+
+  --body-font-font-family: var(--font-body-family);
+  --body-font-font-style: var(--font-body-style);
+  --body-font-font-weight: var(--font-body-weight);
+  --body-font-text-transform: var(--font-body-transform);
+  --body-font-letter-spacing: var(--font-body-letter-spacing);
+  --body-font-line-height: var(--font-body-line-height);
+
+  --meta-font-font-family: var(--font-meta-family);
+  --meta-font-font-style: var(--font-meta-style);
+  --meta-font-font-weight: var(--font-meta-weight);
+  --meta-font-text-transform: var(--font-meta-transform);
+  --meta-font-letter-spacing: var(--font-meta-letter-spacing);
+  --meta-font-line-height: var(--font-meta-line-height);
+
+  --heading-1-size: var(--size-h1);
+  --heading-1-size-value: var(--size-h1-value);
+  --heading-2-size: var(--size-h2);
+  --heading-2-size-value: var(--size-h2-value);
+  --heading-3-size: var(--size-h3);
+  --heading-3-size-value: var(--size-h3-value);
+  --heading-4-size: var(--size-h4);
+  --heading-4-size-value: var(--size-h4-value);
+
+  --large-text-size: var(--size-large);
+  --large-text-size-value: var(--size-large-value);
+  --normal-text-size: var(--size-base);
+  --normal-text-size-value: var(--size-base-value);
+  --small-text-size: var(--size-small);
+  --small-text-size-value: var(--size-small-value);
+
+  --normal-meta-size: var(--size-meta);
+  --normal-meta-size-value: var(--size-meta-value);
+
+  --site-navigation-font-font-family: var(--site-navigation-font-family);
+  --site-navigation-font-font-style: var(--site-navigation-font-style);
+  --site-navigation-font-font-weight: var(--site-navigation-font-weight);
+  --site-navigation-font-text-transform: var(--site-navigation-font-transform);
+  --site-navigation-font-letter-spacing: var(--site-navigation-font-letter-spacing);
+  --site-navigation-font-line-height: var(--site-navigation-font-line-height);
+  --site-navigation-font-font-size: var(--site-navigation-font-size);
+  --site-navigation-font-font-size-value: var(--site-navigation-font-size-value);
+}
