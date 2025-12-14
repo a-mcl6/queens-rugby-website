@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { footerNavigation } from '../../data/navigation';
 
 const Footer: React.FC = () => {
   return (
@@ -20,10 +21,16 @@ const Footer: React.FC = () => {
           {/* Navigation */}
           <nav aria-label="Footer navigation">
             <ul className="space-y-2 text-sm">
-              <li><Link to="/membership">Membership</Link></li>
-              <li><Link to="/club-news">Club News</Link></li>
-              <li><Link to="/ourhistory">Our History</Link></li>
-              <li><Link to="/joinus">Join Us</Link></li>
+              {footerNavigation.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    to={item.to!}
+                    className="hover:underline underline-offset-4"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
 
